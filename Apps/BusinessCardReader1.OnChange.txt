@@ -1,0 +1,42 @@
+UpdateContext({
+    AddressCity: BusinessCardReader1.AddressCity, // 住所の市区町村
+    AddressCountryRegion: BusinessCardReader1.AddressCountryRegion, // 住所の国
+    AddressPostalCode: BusinessCardReader1.AddressPostalCode, // 住所の郵便番号
+    AddressStreet: BusinessCardReader1.AddressStreet, // 番地
+    BusinessPhone: BusinessCardReader1.BusinessPhone, // 第一電話番号またはFAX番号
+    CleanedImage: BusinessCardReader1.CleanedImage, // 元の画像から、名刺がトリミングまたは拡張された処理後の画像
+    CompanyName: BusinessCardReader1.CompanyName, // 会社名
+    Department: BusinessCardReader1.Department, // 組織部門が見つかりました。
+    Email: BusinessCardReader1.Email, // 連絡先のメールアドレスが名刺に含まれています (存在する場合)。
+    Fax: BusinessCardReader1.Fax, // 第三電話番号またはFAX番号
+    FirstName: BusinessCardReader1.FirstName, // 連絡先の名
+    FullAddress: BusinessCardReader1.FullAddress, // 連絡先の完全な住所
+    FullName: BusinessCardReader1.FullName, // 連絡先の氏名
+    JobTitle: BusinessCardReader1.JobTitle, // 連絡先の役職
+    LastName: BusinessCardReader1.LastName, // 連絡先の姓
+    MobilePhone: BusinessCardReader1.MobilePhone, // 第二電話番号またはFAX番号
+    OriginalImage: BusinessCardReader1.OriginalImage, // 処理前の元の画像
+    Website: BusinessCardReader1.Website // Web サイト
+})
+
+
+
+AddressCity & Char(13) & Char(10) & // 住所の市区町村
+AddressCountryRegion & Char(13) & Char(10) & // 住所の国
+AddressPostalCode & Char(13) & Char(10) & // 住所の郵便番号
+AddressStreet & Char(13) & Char(10) & // 番地
+BusinessPhone & Char(13) & Char(10) & // 第一電話番号またはFAX番号
+// CleanedImage & Char(13) & Char(10) & // 元の画像から、名刺がトリミングまたは拡張された処理後の画像
+CompanyName & Char(13) & Char(10) & // 会社名
+Department & Char(13) & Char(10) & // 組織部門が見つかりました。
+Email & Char(13) & Char(10) & // 連絡先のメールアドレスが名刺に含まれています (存在する場合)。
+Fax & Char(13) & Char(10) & // 第三電話番号またはFAX番号
+FirstName & Char(13) & Char(10) & // 連絡先の名
+FullAddress & Char(13) & Char(10) & // 連絡先の完全な住所
+FullName & Char(13) & Char(10) & // 連絡先の氏名
+JobTitle & Char(13) & Char(10) & // 連絡先の役職
+LastName & Char(13) & Char(10) & // 連絡先の姓
+MobilePhone & Char(13) & Char(10) & // 第二電話番号またはFAX番号
+// OriginalImage & Char(13) & Char(10) & // 処理前の元の画像
+Website & Char(13) & Char(10) & // Web サイト
+""
